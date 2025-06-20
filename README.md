@@ -122,7 +122,9 @@ Since this is a CLI tool, no web hosting is needed. You can:
 ## 🤛 Author
 
 **Sasidhara Srivatchasa**
+
 AI Engineer | NLP Developer
+
 [GitHub](https://github.com/SasidharaSrivatchasa)
 
 ---
