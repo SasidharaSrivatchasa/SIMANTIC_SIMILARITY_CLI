@@ -44,7 +44,31 @@ A production-ready command-line tool for detecting semantic similarity between t
 | Feature extraction | Cosine similarity → probability conversion      |
 | Classifier model   | XGBoost Classifier (`.pkl` file)                |
 
-All models are saved inside the `models/` directory.
+All models are stored in an external Google Drive folder due to file size.
+
+---
+
+## 📦 Model Setup Instructions
+
+Since model files are too large for GitHub, download them from Google Drive:
+
+🔗 **[Download models folder](https://drive.google.com/drive/folders/11-gmsGnl9DYjJv97wCH20dFkBoxOeMf7?usp=drive_link)**
+
+1. Download the folder from the link above
+2. Place the entire folder into your project root and rename it `models/` if needed
+3. Ensure the structure looks like this:
+
+```
+project-root/
+├── semantic_sim_cli.py
+├── setup.py
+├── requirements.txt
+├── models/
+│   ├── semantic_similarity_model.pkl
+│   └── semantic_encoder/
+```
+
+> ✅ This will make your CLI tool work correctly with local models.
 
 ---
 
@@ -102,4 +126,3 @@ AI Engineer | NLP Developer
 [GitHub](https://github.com/SasidharaSrivatchasa)
 
 ---
-# SIMANTIC_SIMILARITY_CLI
