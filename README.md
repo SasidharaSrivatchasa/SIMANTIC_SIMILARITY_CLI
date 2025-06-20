@@ -52,7 +52,7 @@ All models are stored in an external Google Drive folder due to file size.
 
 Since model files are too large for GitHub, download them from Google Drive:
 
-🔗 **[Download models folder](https://drive.google.com/drive/folders/11-gmsGnl9DYjJv97wCH20dFkBoxOeMf7?usp=drive_link)**
+🔗 **[Download models folder](https://drive.google.com/drive/folders/11-gmsGnl9DYjJv97wCH20dFkBoxOeMf7?usp=sharing)**
 
 1. Download the folder from the link above
 2. Place the entire folder into your project root and rename it `models/` if needed
